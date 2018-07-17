@@ -42,7 +42,7 @@ RUN apt-get update --fix-missing && apt-get -y upgrade
 # Install dependencies
 RUN apt-get -y \
     install python-pip \
-    python-imaging \
+    python-pil \
     python-setuptools \
     python-mutagen \
     python-pam \
